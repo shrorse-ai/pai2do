@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <!-- Gen-Z Aurora Dopamine Gradient: Electric Indigo -> Neon Violet -> Cyber Pink -> Coral -->
+    <linearGradient id="pai2do_bg" x1="4" y1="4" x2="60" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="42%" stop-color="#9333EA"/>
+      <stop offset="78%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#FB7185"/>
+    </linearGradient>
+    <!-- Top-Left Cyan Mesh Glow -->
+    <radialGradient id="mesh_cyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(14 12) rotate(42) scale(34)">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Inner Glass Rim -->
+    <linearGradient id="glass_rim" x1="6" y1="4" x2="58" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.55"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.35"/>
+    </linearGradient>
+    <!-- Creamy White 3D Card Fill -->
+    <linearGradient id="card_fill" x1="14" y1="13" x2="48" y2="52" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FDF2F8"/>
+    </linearGradient>
+    <!-- Cyber Mint-Cyan Check Badge -->
+    <linearGradient id="mint_badge" x1="36" y1="35" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2DD4BF"/>
+      <stop offset="55%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <!-- Golden AI Sparkle Star -->
+    <linearGradient id="sparkle_gold" x1="43" y1="7" x2="55" y2="21" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="55%" stop-color="#FACC15"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 1. Squircle Base with Aurora Mesh Gradient -->
+  <rect x="2" y="2" width="60" height="60" rx="16.5" fill="url(#pai2do_bg)"/>
+  <rect x="2" y="2" width="60" height="60" rx="16.5" fill="url(#mesh_cyan)"/>
+  <rect x="2.75" y="2.75" width="58.5" height="58.5" rx="15.75" stroke="url(#glass_rim)" stroke-width="1.5"/>
+
+  <!-- 2. Tilted Frosted Glass Back Card (Dynamic 3D Layered Depth) -->
+  <g transform="rotate(-10 30 33)">
+    <rect x="12" y="13" width="33" height="37" rx="9" fill="#FFFFFF" fill-opacity="0.24" stroke="#FFFFFF" stroke-opacity="0.4" stroke-width="1.2"/>
+  </g>
+
+  <!-- 3. Soft Ambient Drop Shadow under Main Card -->
+  <rect x="14.5" y="16" width="34" height="38" rx="9.5" fill="#3B0764" fill-opacity="0.24"/>
+
+  <!-- 4. Main Plump Creamy-White Note Card -->
+  <rect x="13.5" y="13.5" width="34" height="38" rx="9.5" fill="url(#card_fill)"/>
+
+  <!-- 5. Dopamine Binder Clips at Top of Card -->
+  <rect x="21" y="10" width="4.6" height="7" rx="2.3" fill="#2DD4BF" stroke="#FFFFFF" stroke-width="1.2"/>
+  <rect x="35.4" y="10" width="4.6" height="7" rx="2.3" fill="#FACC15" stroke="#FFFFFF" stroke-width="1.2"/>
+
+  <!-- 6. Expressive Gen-Z Task Rows inside Card -->
+  <!-- Row 1: Highlighted Lavender Pill with Violet Bar -->
+  <rect x="17.5" y="20" width="26" height="8.5" rx="4.25" fill="#F3E8FF"/>
+  <circle cx="22" cy="24.25" r="2.5" fill="#8B5CF6"/>
+  <rect x="26.8" y="22.75" width="13.5" height="3" rx="1.5" fill="#7C3AED"/>
+
+  <!-- Row 2: Sweet Coral Pink Task -->
+  <circle cx="21" cy="34" r="2.2" fill="#F43F5E"/>
+  <rect x="25.8" y="32.5" width="14.5" height="3" rx="1.5" fill="#FB7185"/>
+
+  <!-- Row 3: Sky Cyan Task -->
+  <circle cx="21" cy="41.5" r="2.2" fill="#38BDF8"/>
+  <rect x="25.8" y="40" width="9.5" height="3" rx="1.5" fill="#A78BFA"/>
+
+  <!-- 7. Top-Right Floating AI Magic 4-Point Star ("慧" Smart Sparkle) -->
+  <path d="M50 6.5C50.4 10.6 51.9 12.1 56 12.5C51.9 12.9 50.4 14.4 50 18.5C49.6 14.4 48.1 12.9 44 12.5C48.1 12.1 49.6 10.6 50 6.5Z" fill="url(#sparkle_gold)"/>
+  <circle cx="55.5" cy="20.5" r="1.7" fill="#FEF08A"/>
+  <circle cx="10.5" cy="49.5" r="1.5" fill="#67E8F9" fill-opacity="0.85"/>
+
+  <!-- 8. Bottom-Right Pop-Out Cyber Mint Completion Badge -->
+  <circle cx="45.5" cy="45.5" r="11" fill="#3B0764" fill-opacity="0.22"/>
+  <circle cx="45" cy="44.5" r="10.5" fill="url(#mint_badge)" stroke="#FFFFFF" stroke-width="2.2"/>
+  <path d="M40.3 44.6L43.5 47.8L49.8 41.2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

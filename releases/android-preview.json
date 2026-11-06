@@ -1,0 +1,12 @@
+{
+    "schema":  1,
+    "package_name":  "cn.pictodo.app.debug",
+    "version_code":  53,
+    "version_name":  "0.8.9",
+    "min_sdk":  26,
+    "published_at":  "2026-11-06",
+    "notes":  "新增 30 天免费试用与注册码激活（试用到期后联系微信号 ydfc_6688 获取注册码）；优化版本升级提醒，支持应用内一键下载安装新版本，修复若干问题。",
+    "bytes":  271816,
+    "sha256":  "059589f3a0d5d399728d2eca12dc1c0cbcad580c11996f85097b3b0f49b22b52",
+    "apk_path":  "/releases/pai2do-0.8.9-preview.apk"
+}
