@@ -6,7 +6,7 @@
     <em>250KB Pure Native Android App · Zero Third-Party SDKs · Local-First & BYOK (Google Gemini Free Tier / OpenRouter / OpenAI)</em>
   </p>
   <p>
-    <a href="https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.8.9-preview.apk"><img src="https://img.shields.io/badge/Download_APK_(GitHub)-v0.8.9_(265_KB)-2563eb?style=for-the-badge&logo=android&logoColor=white" alt="Download APK from GitHub"></a>
+    <a href="https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.9.0-preview.apk"><img src="https://img.shields.io/badge/Download_APK_(GitHub)-v0.9.0_(269_KB)-2563eb?style=for-the-badge&logo=android&logoColor=white" alt="Download APK from GitHub"></a>
     <img src="https://img.shields.io/badge/Android-8.0%2B_(API_26%2B)-059669?style=for-the-badge" alt="Android 8.0+">
   </p>
   <p>
@@ -80,21 +80,21 @@ Pai2do automatically adapts to your system language (or you can switch anytime i
 
 ## 📥 Download & Verification
 
-- **Latest Version**: `v0.8.9` (`versionCode 53`)
-- **Direct APK Download (GitHub Raw)**: [https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.8.9-preview.apk](https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.8.9-preview.apk)
+- **Latest Version**: `v0.9.0` (`versionCode 54`)
+- **Direct APK Download (GitHub Raw)**: [https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.9.0-preview.apk](https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.9.0-preview.apk)
 - **GitHub Releases**: [https://github.com/shrorse-ai/pai2do/releases](https://github.com/shrorse-ai/pai2do/releases)
 - **Minimum Android Version**: Android 8.0+ (API 26+)
-- **Package Size**: `271,816 bytes` (~265 KB)
-- **SHA-256 Checksum (`v0.8.9`)**:
+- **Package Size**: `275,912 bytes` (~269 KB)
+- **SHA-256 Checksum (`v0.9.0`)**:
   ```text
-  059589f3a0d5d399728d2eca12dc1c0cbcad580c11996f85097b3b0f49b22b52
+  2a7bb0756d544a9041f7966c2abbc3c375b473a24e0875f46b6ddcf8662d8dca
   ```
 
 ---
 
 ## 🇨🇳 中文说明 · 慧记事（国内版）
 
-**「慧记事 (Pai2do)」** 是一款安装包仅 **265 KB** 的纯原生 Android 待办与日程提醒工具，支持根据手机系统语言自动切换 **中文（国内版）** 与 **English（海外版）**，也可在 **「我的 → 语言与地区 / Language」** 中手动切换。
+**「慧记事 (Pai2do)」** 是一款安装包仅 **269 KB** 的纯原生 Android 待办与日程提醒工具，支持根据手机系统语言自动切换 **中文（国内版）** 与 **English（海外版）**，也可在 **「我的 → 语言与地区 / Language」** 中手动切换。
 
 ### 核心亮点
 - **截图 / 表格 / 照片转待办**：导入微信群聊截图、排期表、会议通知照片，自动提取完整原文与多条子任务，智能识别起止时间段（默认以开始时间作为提醒时间），支持原图双指缩放对照核对。
@@ -106,7 +106,7 @@ Pai2do automatically adapts to your system language (or you can switch anytime i
 - **本机优先与隐私安全**：无任何遥测埋点或第三方服务器关联；原图与待办仅保存在手机本机私有目录；API Key 经由系统硬件 `AndroidKeyStore` (`AES-256-GCM`) 加密存储于本机，不上传任何服务器。
 
 ### 下载安装
-- **直接下载 APK (`v0.8.9`)**：[https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.8.9-preview.apk](https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.8.9-preview.apk)
+- **直接下载 APK (`v0.9.0`)**：[https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.9.0-preview.apk](https://raw.githubusercontent.com/shrorse-ai/pai2do/main/releases/pai2do-0.9.0-preview.apk)
 - **GitHub Releases**：[https://github.com/shrorse-ai/pai2do/releases](https://github.com/shrorse-ai/pai2do/releases)
 
 ---

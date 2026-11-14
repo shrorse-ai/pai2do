@@ -1,12 +1,12 @@
 {
     "schema":  1,
     "package_name":  "cn.pictodo.app.debug",
-    "version_code":  53,
-    "version_name":  "0.8.9",
+    "version_code":  54,
+    "version_name":  "0.9.0",
     "min_sdk":  26,
-    "published_at":  "2026-11-06",
-    "notes":  "新增 30 天免费试用与注册码激活（试用到期后联系微信号 ydfc_6688 获取注册码）；优化版本升级提醒，支持应用内一键下载安装新版本，修复若干问题。",
-    "bytes":  271816,
-    "sha256":  "059589f3a0d5d399728d2eca12dc1c0cbcad580c11996f85097b3b0f49b22b52",
-    "apk_path":  "/releases/pai2do-0.8.9-preview.apk"
+    "published_at":  "2026-11-14",
+    "notes":  "修复图片识图长期转圈卡死问题：新增流式首包/断流/总时长看门狗超时与多模型自动容灾切换，兼容思考模型 reasoning_content 与流内报错，自动裁剪截图上下黑边并优化压缩尺寸，进度弹窗支持一键「取消识别」及实时阶段提示，消除后台切换触发重复重试死循环。",
+    "bytes":  275912,
+    "sha256":  "2a7bb0756d544a9041f7966c2abbc3c375b473a24e0875f46b6ddcf8662d8dca",
+    "apk_path":  "/releases/pai2do-0.9.0-preview.apk"
 }
